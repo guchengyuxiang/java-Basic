@@ -24,6 +24,7 @@
         <module>java-io</module>
         <module>meeting-code</module>
         <module>redis-doc</module>
+        <module>spring-family-doc</module>
     </modules>
 
     <packaging>pom</packaging>
