@@ -1,0 +1,16 @@
+ReentrantLock---> CPU
+内置锁---> 系统层 OS
+定时 可轮询 可中断--显示手动释放
+java6与内置锁实现性能相近
+在内置锁不满足的场景下使用Lock
+
+lock tryLock interruptiblyLock 
+
+ReadWriterLock 读写锁
+
+释放优先
+读线程插队
+重入性
+降级--> 写锁申请读锁
+升级--> 死锁（俩个读锁申请写锁）
+
